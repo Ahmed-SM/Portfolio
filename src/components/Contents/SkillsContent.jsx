@@ -8,6 +8,12 @@ const SkillsContent = () => {
           <StyledHeading size={"64px"}>
             Skills,
           </StyledHeading>
+          <StyledHeading>
+            React Js, JQuery, Gulp Js, Node Js, JavaScript Libraries<br/>
+            HTML5/CSS3<br/>
+            Figma, Photoshop, After Effect\nGit, GitHub, Team Foundation Server\n.NET, ASP.NET Core WebAPI<br/>
+            MS SQL, Stored Producers, Views, Entity Framework Core
+          </StyledHeading>
         </StyledContent> 
     );
 };
