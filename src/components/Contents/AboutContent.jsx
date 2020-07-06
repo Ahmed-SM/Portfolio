@@ -10,8 +10,7 @@ const AboutContent = () => {
           </StyledHeading>
             <StyledHeading>
             I'm Ahmed Saadawi, a Web Developer from Egypt who likes to mix code, animation,
-          interactivity and generative design. I work across the full JavaScript stack and have 
-          presented my work at conferences like Resonate and FITC. Formerly Google Creative Lab / Qwiki / FI. Currently Spotify.
+          interactivity and generative design. 
             </StyledHeading>
           </StyledContent> 
     );
