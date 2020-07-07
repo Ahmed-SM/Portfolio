@@ -36,6 +36,7 @@ const StyledSideBar = styled.div`
   width:6rem;
   min-width:6rem;
   height:100%;
+  min-height: 360px;
   z-index:0;
   align-items: center;
   justify-content:center;

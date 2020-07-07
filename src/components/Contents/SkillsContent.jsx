@@ -25,5 +25,5 @@ const StyledHeading = styled.h1`
   font-weight: normal;
   font-size:  ${props => props.size || '30px'};
   width: 1194px;
-  margin:0 auto 20px auto;
+  margin:0 8vw 20px 8vw;
 `;

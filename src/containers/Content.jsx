@@ -7,15 +7,14 @@ const StyledContent = styled.section`
   font-size: 30px;
   display:flex;
   flex-direction:${props => props.direction || 'column'};
-  flex-wrap: nowrap;
+  flex-wrap: ${props => props.wrap || 'nowrap'};
   width:100%;
   min-width:${props => props.minWidth || '100%'};
   justify-content:${props => props.align || 'center'};;
   align-content:center;
   flex-grow:${props => props.grow || '1'};
   background:${props => props.color || '#16191B'};
-  width: 100%;
   min-width: 1440px;
-  
+  overflow:${props => props.overflow || ' '};;
 `;
 export default StyledContent;

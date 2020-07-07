@@ -193,7 +193,7 @@ const ProjectContent = () => {
             </defs>
             </svg>
             <p>
-            {` {\n"roles":{\n"allUsers": [{"id": "ck72wpgiy119w0166nlpn4lfg","name": "Chandan"},{"id": "ck72wuqk711p80105w1mg7za0","name": "Chandan"}\n}`}
+            {` {\n"type:":""\n"roles":{\n"allUsers": [{"id": "ck72wpgiy119w0166nlpn4lfg","name": "Chandan"},{"id": "ck72wuqk711p80105w1mg7za0","name": "Chandan"}\n}`}
             </p>
           </StyledProject>
         </StyledContent> 
@@ -203,7 +203,7 @@ export default ProjectContent;
 const StyledProject = styled.div`
     display:flex;
     width: 1194px;
-    margin:0 auto 20px auto;
+    margin:0 8vw 20px 8vw;
     font-size: 20px;
     p{
         margin:auto 20px;
@@ -217,5 +217,5 @@ const StyledHeading = styled.h1`
   font-weight: normal;
   font-size:  ${props => props.size || '30px'};
   width: 1194px;
-  margin:0 auto 20px auto;
+  margin:0 8vw 20px 8vw;
 `;

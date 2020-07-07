@@ -7,7 +7,7 @@ import styled from 'styled-components';
 
 const Sidebar = () =>{
     return(
-<StyledContent color={"#16191B"} direction={"row"} align={"flex-start"}>
+<StyledContent color={"#16191B"} direction={"row"} align={"flex-start"} wrap={"wrap"}>
   <StyledLink to={"/Projects/Newportal"}>
 <StyledCard>
     <FontAwesomeIcon icon={faBox} size={"5x"} color={"#FCE373"}/>

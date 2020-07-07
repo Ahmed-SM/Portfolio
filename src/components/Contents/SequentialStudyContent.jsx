@@ -7,14 +7,14 @@ import nov3 from '../../assets/nov3.png';
 
 const SequentialStudyContent = () => {
     return(
-        <StyledContent grow={"10"} color={"#16191B"}>
+        <StyledContent grow={"10"} color={"#16191B"} >
           <StyledHeading size={"64px"}>
             Sequential Study Issuer,
           </StyledHeading>
           <StyledProject>
-          <img src={nov1} width="270" alt="Sequential Study"></img>
-          <img src={nov3} width="270" alt="Sequential Study"></img>
-          <img src={nov2} width="270" alt="Sequential Study"></img>
+          <img src={nov1} width="265" alt="Sequential Study"></img>
+          <img src={nov3} width="265" alt="Sequential Study"></img>
+          <img src={nov2} width="265" alt="Sequential Study"></img>
             <p>
             {` {\n"roles":{\n"allUsers": [{"id": "ck72wpgiy119w0166nlpn4lfg","name": "Chandan"},{"id": "ck72wuqk711p80105w1mg7za0","name": "Chandan"}\n}`}
             </p>
@@ -26,7 +26,7 @@ export default SequentialStudyContent;
 const StyledProject = styled.div`
     display:flex;
     width: 1194px;
-    margin:0 auto 20px auto;
+    margin:0 8vw 20px 8vw;
     font-size: 20px;
     p{
         margin:auto 20px;
@@ -44,5 +44,5 @@ const StyledHeading = styled.h1`
   font-weight: normal;
   font-size:  ${props => props.size || '30px'};
   width: 1194px;
-  margin:0 auto 20px auto;
+  margin:0 8vw 20px 8vw;
 `;
