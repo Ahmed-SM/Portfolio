@@ -12,7 +12,7 @@ import StyledContent from "./containers/Content";
 
 const Routes = () => {
     return(
-        <StyledContent minWidth={"1440px"} overflow={"auto"} align="flex-start">
+        <StyledContent minWidth={"1440px"} overflowY={"auto"} overflowX={"hidden"} align="flex-start">
             <Switch>
                 <Route exact component={AboutContent} path={"/"}/>
                 <Route exact component={ProjectContent} path={"/Projects"}/>

@@ -6,7 +6,7 @@ import Imag2 from '../../assets/sc1114.JPG';
 
 const ScefContent = () => {
     return(
-        <StyledContent grow={"10"} color={"#16191B"}>
+        <StyledContent grow={"10"} color={"#16191B"} margin={"3%"} align={"flex-start"} overflowX={"hidden"}>
           <StyledHeading size={"64px"}>
             SCEF HR Application,
           </StyledHeading>
@@ -28,6 +28,8 @@ const StyledProject = styled.div`
     p{
         margin:auto 20px;
         width: 104px;
+        text-shadow: 0 0 3px #009999, 0 0 15px #009999;
+        
     }
     img{
         margin-right:20px;

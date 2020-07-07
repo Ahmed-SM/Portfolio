@@ -7,7 +7,7 @@ import nov3 from '../../assets/nov3.png';
 
 const SequentialStudyContent = () => {
     return(
-        <StyledContent grow={"10"} color={"#16191B"} >
+        <StyledContent grow={"10"} color={"#16191B"} margin={"3%"} align={"flex-start"} overflowX={"auto"}  >
           <StyledHeading size={"64px"}>
             Sequential Study Issuer,
           </StyledHeading>
@@ -26,11 +26,13 @@ export default SequentialStudyContent;
 const StyledProject = styled.div`
     display:flex;
     width: 1194px;
+    flex-wrap:wrap;
     margin:0 8vw 20px 8vw;
     font-size: 20px;
     p{
         margin:auto 20px;
         width: 104px;
+        text-shadow: 0 0 3px #f37449, 0 0 15px #f37449;
     }
     img{
         margin-right:20px;

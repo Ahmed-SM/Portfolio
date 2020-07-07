@@ -7,7 +7,7 @@ import styled from 'styled-components';
 
 const Sidebar = () =>{
     return(
-<StyledContent color={"#16191B"} direction={"row"} align={"flex-start"} wrap={"wrap"}>
+<StyledContent color={"#16191B"} direction={"row"} align={"flex-start"} wrap={"nowrap"} overflowX={"auto"}  overflowY={"hidden"}>
   <StyledLink to={"/Projects/Newportal"}>
 <StyledCard>
     <FontAwesomeIcon icon={faBox} size={"5x"} color={"#FCE373"}/>
@@ -50,9 +50,9 @@ export default Sidebar;
 const StyledCard = styled.div`
   margin: auto 0;
   align-items: center;
-  height:183px;
+  height:175px;
   width:auto;
-  min-width:400px;
+  min-width:450px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -61,6 +61,9 @@ const StyledCard = styled.div`
   &:hover {
     transform: scale(1.05);
     transition: all 0.2s;
+  }
+  &>*{
+    text-shadow: 0 0 3px #6ECCEE, 0 0 15px #6ECCEE;
   }
 `;
 const StyledDivider = styled.div`
