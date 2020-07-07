@@ -8,11 +8,11 @@ import ScefContent from "./components/Contents/ScefContent";
 import SkillsContent from "./components/Contents/SkillsContent";
 import EducationContent from "./components/Contents/EducationContent";
 import Hbar from "./components/Hbar";
-import StyledContent from "./containers/Content";
+import StyledLayout from "./containers/Layout";
 
 const Routes = () => {
     return(
-        <StyledContent minWidth={"1440px"} overflowY={"auto"} overflowX={"hidden"} align="flex-start">
+        <StyledLayout minWidth={"1440px"}>
             <Switch>
                 <Route exact component={AboutContent} path={"/"}/>
                 <Route exact component={ProjectContent} path={"/Projects"}/>
@@ -25,7 +25,7 @@ const Routes = () => {
             <Switch>
                 <Route exact component={Hbar} path={["/Projects/*", "/Projects"]}/>
             </Switch>
-        </StyledContent>
+        </StyledLayout>
     );
 };
 export default Routes;
