@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-const StyledContent = styled.section`
+const StyledContent = styled.div`
   margin:${props => props.margin || '0'} 0;
   color: #E2E6E8;
   font-family: 'Roboto Mono', monospace;

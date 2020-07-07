@@ -5,19 +5,22 @@ import AurakName from '../../assets/Aurak-Name1.png';
 
 const EducationContent = () => {
     return(
-        <StyledContent grow={"10"} color={"#16191B"}>
+        <StyledContentExtended grow={"10"} color={"#16191B"}>
           <StyledHeading size={"64px"}>
             Education,
           </StyledHeading>
           <StyledHeading size={"25px"}>
             Bachelor of Science in Computer Science, American University of Ras Al Khaimah. 2014 - 2019
-          <img src={AurakName} width="100%" alt="Sequential Study"/>
           </StyledHeading>
+          <img src={AurakName} width="100%" alt="Sequential Study"/>
 
-        </StyledContent> 
+        </StyledContentExtended> 
     );
 };
 export default EducationContent;
+const StyledContentExtended = styled(StyledContent)`
+height:100%;
+`
 const StyledHeading = styled.h1`
   color: #E2E6E8;
   font-family: 'Roboto Mono', monospace;
